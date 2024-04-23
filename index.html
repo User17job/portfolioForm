@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titLE>FORMULARIO</titLE>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/6462/6462722.png">
+</head>
+<body>
+    <section class="cont">
+        <div class="cont__div"> 
+            <h1>Form</h1>
+            <form  class="cont__div--div" name="contact" netlify> 
+                <label for="name">Name</label>
+                <input type="text" class="up" id="name" placeholder="name"  name="name" id="" autocomplete="off" minlength="3">
+
+                <!-- por si alguien llega a leer este codigo. en este input de abajo iva la contrasena pero comoa la verdad es un formulario de contacto no s e nesecita asi que solo cambiare  visible  y no los ID ?por que? me dio pereza :) -->
+                <label for="password">Last Name</label>
+                <input type="text" class="up" id="password" placeholder="LastName" name="LastName" autocomplete="off" maxlength="16">   
+                
+                <label for="email">Email</label>
+                <input type="email" class="up" id="email"  placeholder="Email" name="email" autocomplete="off" minlength="3">
+
+                <label for="com">Coment</label>
+                <input type="text" class="up" id="com" placeholder="Coment" name="coment" autocomplete="off" maxlength="200" >
+            
+                 <div class="btn">
+                    <button class="btn__button" type="reset">reset</button>
+                    <button class="btn__button" id="btn__buttonS" name="submit" type="submit">submit</button>
+                </div>              
+            </form>
+
+            <a href="https://wa.link/vx5dne" target="_blank" class="numero">(829)-523-7077</a>
+        </div>
+        <script src="form.js"></script>
+    </section>
+
+</body>
+</html>
